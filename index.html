@@ -18,8 +18,8 @@ box-sizing:border-box;
 body{
 font-family:'Cairo',sans-serif;
 direction: rtl;
-background:linear-gradient(135deg,#fdf0f5,#e8d5e8,#d8bfd8);
-color:#4a235a;
+background:linear-gradient(135deg,#fff0f6,#ffdeeb,#ffc2d1);
+color:#cb3473;
 overflow-x:hidden;
 scroll-behavior:smooth;
 }
@@ -30,7 +30,7 @@ scroll-behavior:smooth;
 position:fixed;
 bottom:-40px;
 font-size:20px;
-color:#9b59b6;
+color:#ff5ea9;
 animation:float 8s linear infinite;
 opacity:.7;
 }
@@ -55,14 +55,14 @@ padding:20px;
 .hero h1{
 font-family:'Great Vibes',cursive;
 font-size:70px;
-color:#8e44ad;
-text-shadow:0 0 15px rgba(142,68,173,0.3);
+color:#cb3473;
+text-shadow:0 0 15px rgba(203,52,115,0.3);
 margin-bottom:20px;
 }
 
 .hero p{
 font-size:20px;
-color:#6c3483;
+color:#ff5ea9;
 }
 
 /* INFO SECTION */
@@ -81,7 +81,7 @@ background:rgba(255,255,255,0.4);
 padding:30px;
 border-radius:20px;
 backdrop-filter:blur(10px);
-box-shadow:0 0 25px rgba(142,68,173,.2);
+box-shadow:0 0 25px rgba(203,52,115,.2);
 width:260px;
 transition:.4s;
 }
@@ -93,7 +93,7 @@ transform:translateY(-10px);
 .card h2{
 font-family:'Great Vibes',cursive;
 font-size:34px;
-color:#8e44ad;
+color:#cb3473;
 margin-bottom:10px;
 }
 
@@ -107,7 +107,7 @@ padding:80px 10%;
 .her img{
 width:260px;
 border-radius:20px;
-box-shadow:0 0 30px rgba(142,68,173,.3);
+box-shadow:0 0 30px rgba(203,52,115,.3);
 margin-top:30px;
 }
 
@@ -122,7 +122,7 @@ text-align:center;
 font-family:'Great Vibes',cursive;
 font-size:48px;
 margin-bottom:40px;
-color:#8e44ad;
+color:#cb3473;
 }
 
 .photos{
@@ -135,7 +135,7 @@ gap:30px;
 width:100%;
 border-radius:15px;
 transition:.4s;
-box-shadow:0 10px 20px rgba(142,68,173,.2);
+box-shadow:0 10px 20px rgba(203,52,115,.2);
 }
 
 .photos img:hover{
@@ -147,7 +147,7 @@ transform:scale(1.05);
 footer{
 text-align:center;
 padding:40px;
-color:#8e44ad;
+color:#cb3473;
 }
 
 /* VIDEO SECTION */
@@ -160,7 +160,7 @@ padding: 80px 10%;
 .video-section h2 {
 font-family: 'Great Vibes', cursive;
 font-size: 48px;
-color: #8e44ad;
+color: #cb3473;
 margin-bottom: 30px;
 }
 
@@ -169,7 +169,7 @@ max-width: 800px;
 margin: auto;
 border-radius: 20px;
 overflow: hidden;
-box-shadow: 0 10px 30px rgba(142,68,173,.3);
+box-shadow: 0 10px 30px rgba(203,52,115,.3);
 border: 5px solid rgba(255,255,255,0.4);
 background: rgba(255,255,255,0.2);
 backdrop-filter: blur(5px);
@@ -186,6 +186,7 @@ display: block;
 
 .hero h1{
 font-size:42px;
+color:#cb3473;
 }
 
 }
@@ -245,7 +246,7 @@ font-size:42px;
 
 <footer>
 
-Made with 💜 just for you
+Made with 💖 just for you
 
 </footer>
 
@@ -255,7 +256,7 @@ Made with 💜 just for you
 function hearts(){
 const heart=document.createElement("div")
 heart.classList.add("heart")
-heart.innerHTML="💜"
+heart.innerHTML="💖"
 heart.style.left=Math.random()*100+"vw"
 heart.style.fontSize=(15+Math.random()*25)+"px"
 heart.style.animationDuration=(5+Math.random()*5)+"s"
